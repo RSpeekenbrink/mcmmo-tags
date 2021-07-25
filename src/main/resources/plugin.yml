@@ -1,0 +1,12 @@
+name: mcMMOTags
+version: 1.0
+main: nl.rspeekenbrink.mcmmotags.mcMMOTags
+depend:
+  - mcMMO
+  - NametagEdit
+commands:
+  village:
+    description: Your description
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
+    default: op
